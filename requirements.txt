@@ -1,0 +1,9 @@
+llama-index
+requests
+gradio
+llama-index-embeddings-huggingface
+llama-index-postprocessor-flag-embedding-reranker
+dashscope
+jieba
+tqdm
+chTokenizer
