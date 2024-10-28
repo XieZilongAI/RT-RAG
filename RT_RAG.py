@@ -42,7 +42,7 @@ class RT_RAG():
             'Cookie': 'BIDUPSID=EFE51D5C560F2D574ED347D1DE875575; PSTM=1695346953; BAIDUID=E5D5DD1ECD27D8A8FCE231DBCB271296:FG=1; BD_UPN=12314753; BDUSS=mQ1cVg1QWtyWEF.........',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
         }
-        self.embedding_model1 = BGEM3FlagModel('BAAI/bge-m3',use_fp16=True)
+        # self.embedding_model1 = BGEM3FlagModel('BAAI/bge-m3',use_fp16=True)
         self.embedding_model2 = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
         self.llm_model_name = 'starling-lm-7b-alpha'
         self.llm_model_name1 = 'qwen1_5-14b-chat'
