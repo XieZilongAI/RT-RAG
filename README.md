@@ -5,7 +5,7 @@ Real-Time Retrieval-Augmented Generation (RTRAG). First, the original query is r
 ## Install requirements
 
 ```setup
-conda create --name rtrag python=3.10
+conda create --name rtrag python=3.10.8
 conda activate rtrag
 pip install -r requirements.txt
 ```
