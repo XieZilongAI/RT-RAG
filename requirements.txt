@@ -6,4 +6,6 @@ llama-index-postprocessor-flag-embedding-reranker
 dashscope
 jieba
 tqdm
-chTokenizer
+FlagEmbedding
+bert4vec
+peft
