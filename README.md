@@ -9,7 +9,7 @@ conda create --name rtrag python=3.10
 conda activate rtrag
 pip install -r requirements.txt
 ```
-If you want to load the model directly from the local machine, you need to pre-download [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2), [bge-m3](https://huggingface.co/BAAI/bge-m3), [starling-lm-7b-alpha](https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha) or [qwen1_5-14b-chat](https://huggingface.co/Qwen/Qwen1.5-14B-Chat) from HuggingFace and place them in the `./models/` directory.
+If you want to load the model directly from the local machine, you need to pre-download [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2), [bge-m3](https://huggingface.co/BAAI/bge-m3), [starling-lm-7b-alpha](https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha) or [qwen1_5-14b-chat](https://huggingface.co/Qwen/Qwen1.5-14B-Chat) from HuggingFace and place them in the `./models/` directory. Otherwise, when you run the code for the first time, the model will be automatically downloaded to the default cache directory of HuggingFace.
 
 ## Use Gradio to start
 Before we start, we need to set up some variables, such as the cookies needed by the crawler, the backbone large language model, and the embedding model.
